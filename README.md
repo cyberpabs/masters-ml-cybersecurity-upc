@@ -13,7 +13,7 @@
 | :--- | :--- | :--- |
 | **Complete** | ✅ | Notes for this subject are fully drafted and organized. |
 | **In Progress** | 🔜 | Notes are currently being drafted, edited, or reviewed. |
-| **Not Started** | (Empty) | The subject file has not been created or contains only a placeholder. |
+| **Not Started** | [ ] | The subject file has not been created or contains only a placeholder. |
 | **Not Planned** | ❌ | This optional subject will **not** be covered. |
 
 ***
