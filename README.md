@@ -7,50 +7,61 @@
 
 ## 📚 Curriculum Overview
 
-### Semester 1  
-| Course | ECTS | Type |
-|--------|------|------|
-| Fundamentals of AI | 3 | Compulsory |
-| Machine Learning | 3 | Compulsory |
-| Neural Networks | 3 | Compulsory |
-| Cryptography | 3 | Compulsory |
-| Ethical Hacking | 3 | Compulsory |
-| Malware Analysis | 3 | Compulsory |
-| Network Security | 3 | Compulsory |
-| Non-Relational Database Systems | 3 | Compulsory |
-| Cloud Computing & Distributed Systems | 3 | Compulsory |
-| System Development Life Cycle: Continuous Development & Integration | 3 | Compulsory |
+### Legend for Progress Status
 
-### Semester 2  
-| Course | ECTS | Type |
-|--------|------|------|
-| Advanced Deep Learning Modes | 3 | Compulsory |
-| Cyber-physical Systems | 3 | Compulsory |
-| IoT Connectivity | 3 | Compulsory |
-| Sequences & Recurrent Networks | 3 | Compulsory |
-| Wireless System Security | 3 | Compulsory |
-| *Optional courses (select as appropriate)* | 3 each | Optional |
-| - Advanced Cryptography | - | Optional |
-| - AI in Healthcare | - | Optional |
-| - Digital Forensics | - | Optional |
-| - Ethical, Legal & Human Aspects of AI & Cybersecurity | - | Optional |
-| - Introduction to High Performance Computing | - | Optional |
-| - Natural Language Processing | - | Optional |
-| - Optimisation for Machine Learning | - | Optional |
+| Status | Emoji | Meaning |
+| :--- | :--- | :--- |
+| **Complete** | ✅ | Notes for this subject are fully drafted and organized. |
+| **In Progress** | 🔜 | Notes are currently being drafted, edited, or reviewed. |
+| **Not Started** | (Empty) | The subject file has not been created or contains only a placeholder. |
+| **Not Planned** | ❌ | This optional subject will **not** be covered. |
 
-### Semester 3  
-| Course | ECTS | Type |
-|--------|------|------|
-| Advanced Relational Database Systems | 3 | Optional |
-| Cybersecurity of Industrial Control Systems | 3 | Optional |
-| Database Security | 3 | Optional |
-| Digital Entrepreneurship & Innovation Management | 3 | Optional |
-| Front End Frameworks | 3 | Optional |
-| IoT Sensor Systems | 3 | Optional |
-| Machine Learning for Cybersecurity | 3 | Optional |
-| Network Security Monitoring | 3 | Optional |
-| Network Solutions for IoT | 3 | Optional |
-| Master’s Thesis | 18 | Compulsory |
+***
+
+### Semester 1  
+| Course | ECTS | Type | Progress |
+| :--- | :--- | :--- | :--- |
+| Fundamentals of AI | 3 | Compulsory | ✅ |
+| Machine Learning | 3 | Compulsory | 🔜 |
+| Neural Networks | 3 | Compulsory | 🔜 |
+| Cryptography | 3 | Compulsory | `[ ]` |
+| Ethical Hacking | 3 | Compulsory | ✅ |
+| Malware Analysis | 3 | Compulsory | 🔜 |
+| Network Security | 3 | Compulsory | `[ ]` |
+| Non-Relational Database Systems | 3 | Compulsory | 🔜 |
+| Cloud Computing & Distributed Systems | 3 | Compulsory | 🔜 |
+| System Development Life Cycle: Continuous Development & Integration | 3 | Compulsory | 🔜 |
+
+### Semester 2  
+| Course | ECTS | Type | Progress |
+| :--- | :--- | :--- | :--- |
+| Advanced Deep Learning Modes | 3 | Compulsory | `[ ]` |
+| Cyber-physical Systems | 3 | Compulsory | `[ ]` |
+| IoT Connectivity | 3 | Compulsory | `[ ]` |
+| Sequences & Recurrent Networks | 3 | Compulsory | `[ ]` |
+| Wireless System Security | 3 | Compulsory | `[ ]` |
+| *Optional courses (select as appropriate)* | 3 each | Optional | `[ ]` |
+| - Advanced Cryptography | - | Optional | `[ ]` |
+| - AI in Healthcare | - | Optional | `[ ]` |
+| - Digital Forensics | - | Optional | `[ ]` |
+| - Ethical, Legal & Human Aspects of AI & Cybersecurity | - | Optional | `[ ]` |
+| - Introduction to High Performance Computing | - | Optional | `[ ]` |
+| - Natural Language Processing | - | Optional | `[ ]` |
+| - Optimisation for Machine Learning | - | Optional | `[ ]` |
+
+### Semester 3  
+| Course | ECTS | Type | Progress |
+| :--- | :--- | :--- | :--- |
+| Advanced Relational Database Systems | 3 | Optional | `[ ]` |
+| Cybersecurity of Industrial Control Systems | 3 | Optional | `[ ]` |
+| Database Security | 3 | Optional | `[ ]` |
+| Digital Entrepreneurship & Innovation Management | 3 | Optional | `[ ]` |
+| Front End Frameworks | 3 | Optional | `[ ]` |
+| IoT Sensor Systems | 3 | Optional | `[ ]` |
+| Machine Learning for Cybersecurity | 3 | Optional | `[ ]` |
+| Network Security Monitoring | 3 | Optional | `[ ]` |
+| Network Solutions for IoT | 3 | Optional | `[ ]` |
+| Master’s Thesis | 18 | Compulsory | `—` |
 
 ---
 
@@ -79,7 +90,6 @@ Contributions are welcome: typo fixes, additional summaries, improved resource l
 
 ## 🔗 Useful Links  
 - [UPC Master’s Programme Page](https://www.upc.edu/en/masters/machine-learning-and-cybersecurity-for-internet-connected-systems)
-- [Programme PDF Brochure](https://www.upc.edu/master/en/442/masters-degree-in-machine-learning-and-cybersecurity-for-internet-connected-systems.pdf)
 
 ---
 
