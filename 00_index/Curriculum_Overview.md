@@ -66,9 +66,6 @@ Electives:
 
 > Supporting material and personal work.
 
-- 📘 [[Books & References]]
-- 📄 [[Research Papers]]
-- 🧰 [[Tools & Libraries]]
+- 📘 [[Books]] & [[Others]]
 - 🧾 [[Glossary]]
 - 💻 [[Projects]]
-- 🖼️ [[Images Folder]]
