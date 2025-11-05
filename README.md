@@ -13,7 +13,7 @@
 | :--- | :--- | :--- |
 | **Complete** | ✅ | Notes for this subject are fully drafted and organized. |
 | **In Progress** | 🔜 | Notes are currently being drafted, edited, or reviewed. |
-| **Not Started** | [ ] | The subject file has not been created or contains only a placeholder. |
+| **Not Started** | `[ ]` | The subject file has not been created or contains only a placeholder. |
 | **Not Planned** | ❌ | This optional subject will **not** be covered. |
 
 ***
@@ -22,7 +22,7 @@
 | Course | ECTS | Type | Progress |
 | :--- | :--- | :--- | :--- |
 | Fundamentals of AI | 3 | Compulsory | ✅ |
-| Machine Learning | 3 | Compulsory | 🔜 |
+| Machine Learning | 3 | Compulsory | ✅ |
 | Neural Networks | 3 | Compulsory | 🔜 |
 | Cryptography | 3 | Compulsory | `[ ]` |
 | Ethical Hacking | 3 | Compulsory | ✅ |
