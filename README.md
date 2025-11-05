@@ -90,6 +90,7 @@ Contributions are welcome: typo fixes, additional summaries, improved resource l
 
 ## 🔗 Useful Links  
 - [UPC Master’s Programme Page](https://www.upc.edu/en/masters/machine-learning-and-cybersecurity-for-internet-connected-systems)
+- Master's [**roadmap**](ROADMAP.md).
 
 ---
 
