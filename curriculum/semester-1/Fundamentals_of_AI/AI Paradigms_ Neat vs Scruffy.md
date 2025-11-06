@@ -1,4 +1,4 @@
-# AI Paradigms: Neat vs Scruffy
+# AI Paradigms
 
 The history of AI research is categorized into two main schools of thought: **Neat** and **Scruffy**. (Based on Lecture 2)
 
