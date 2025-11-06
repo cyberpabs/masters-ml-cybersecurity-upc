@@ -11,19 +11,20 @@ _For structure, check the Master's visual [**roadmap**](ROADMAP.md)._
 ## 📚 Curriculum Overview
 
 ### Quarter 1  (8 September - 23 December)
-<sub>_(*) All subjects that share a block, are done at the same time._<sub>
-| **Progress** | **Course** | **ECTS** | **Type** | **Block** |
-| :--- | :--- | :--- | :--- | :--- | 
-| ✅ | Fundamentals of AI | 3 | Compulsory | 1 |
-| ✅ | Machine Learning | 3 | Compulsory | 1 |
-| ✅ | Ethical Hacking | 3 | Compulsory | 1 |
-| ✅ | Non-Relational Database Systems | 3 | Compulsory | 1 |
-| 🔜 | System Development Life Cycle: Continuous Development & Integration | 3 | Compulsory | 2 |
-| 🔜 | Malware Analysis | 3 | Compulsory | 2 |
-| 🔜 | Neural Networks | 3 | Compulsory | 2 |
-| 🔜 | Cloud Computing & Distributed Systems | 3 | Compulsory | 2 |
-| `[ ]` | Cryptography | 3 | Compulsory | 3 |
-| `[ ]` | Network Security | 3 | Compulsory | 3 |
+_(*) All subjects that share a block, are done at the same time._
+
+| **Progress** | **Course**                                                          | **ECTS** | **Type**   | **Block** |
+| :----------- | :------------------------------------------------------------------ | :------- | :--------- | :-------- |
+| ✅            | Fundamentals of AI                                                  | 3        | Compulsory | 1         |
+| ✅            | Machine Learning                                                    | 3        | Compulsory | 1         |
+| ✅            | Ethical Hacking                                                     | 3        | Compulsory | 1         |
+| ✅            | Non-Relational Database Systems                                     | 3        | Compulsory | 1         |
+| 🔜           | System Development Life Cycle: Continuous Development & Integration | 3        | Compulsory | 2         |
+| 🔜           | Malware Analysis                                                    | 3        | Compulsory | 2         |
+| 🔜           | Neural Networks                                                     | 3        | Compulsory | 2         |
+| 🔜           | Cloud Computing & Distributed Systems                               | 3        | Compulsory | 2         |
+| `[ ]`        | Cryptography                                                        | 3        | Compulsory | 3         |
+| `[ ]`        | Network Security                                                    | 3        | Compulsory | 3         |
 
 ### Quarter 2  
 | **Progress** | **Course** | **ECTS** | **Type** | **Block** |
