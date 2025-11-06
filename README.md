@@ -11,7 +11,7 @@
 
 | Status | Emoji | Meaning |
 | :--- | :--- | :--- |
-| **Complete** | ✅ | Notes for this subject are fully drafted and organized. |
+| **Complete** | ✅ | Notes for this subject are fully drafted and organized. (_some extra notes may not be there._) |
 | **In Progress** | 🔜 | Notes are currently being drafted, edited, or reviewed. |
 | **Not Started** | `[ ]` | The subject file has not been created or contains only a placeholder. |
 | **Not Planned** | ❌ | This optional subject will **not** be covered. |
@@ -28,7 +28,7 @@
 | Ethical Hacking | 3 | Compulsory | ✅ |
 | Malware Analysis | 3 | Compulsory | 🔜 |
 | Network Security | 3 | Compulsory | `[ ]` |
-| Non-Relational Database Systems | 3 | Compulsory | 🔜 |
+| Non-Relational Database Systems | 3 | Compulsory | ✅ |
 | Cloud Computing & Distributed Systems | 3 | Compulsory | 🔜 |
 | System Development Life Cycle: Continuous Development & Integration | 3 | Compulsory | 🔜 |
 
@@ -94,4 +94,4 @@ Contributions are welcome: typo fixes, additional summaries, improved resource l
 
 ---
 
-*Last updated: 05/11/2025*  
+*Last updated: 06/11/2025*  
