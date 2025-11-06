@@ -2,12 +2,12 @@
 
 _Master’s in Machine Learning and Cybersecurity for Internet Connected Systems — UPC_
 
-This file provides a structured overview of all courses in the program, organized by semester.  
+This file provides a structured overview of all courses in the program, organized by quarters.  
 Each course name links to its corresponding folder in the `curriculum/` directory.
 
 ---
 
-## 🧩 Semester 1 — Foundations
+## 🧩 Quarter 1 — Foundations
 
 > Core fundamentals of AI, cybersecurity, and software systems.
 
@@ -18,13 +18,13 @@ Each course name links to its corresponding folder in the `curriculum/` director
 - 🧑‍💻 [[Ethical Hacking]]
 - 🦠 [[Malware Analysis]]
 - 🌐 [[Network Security]]
-- 🗄️ [[Non-Relational Database Systems]]
+- 🗄️ [[Non-relational Database]]
 - ☁️ [[Cloud Computing & Distributed Systems]]
 - ⚙️ [[SDLC & Continuous Integration]]
 
 ---
 
-## 🚀 Semester 2 — Advanced Intelligence & Security
+## 🚀 Quarter 2 — Advanced Intelligence & Security
 
 > Deepen your expertise in AI, IoT, and advanced cybersecurity.
 
@@ -45,7 +45,7 @@ Electives:
 
 ---
 
-## 🧠 Semester 3 — Integration & Thesis
+## 🧠 Quarter 3 — Integration & Thesis
 
 > Apply knowledge through real-world systems, innovation, and research.
 
