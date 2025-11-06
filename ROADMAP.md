@@ -8,7 +8,7 @@
 ```mermaid
 %%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#e1f5ff','primaryTextColor':'#000','primaryBorderColor':'#333','lineColor':'#666','secondaryColor':'#d4edda','tertiaryColor':'#f8d7da'}}}%%
 flowchart TD
-    Start([Master's Program Start]) --> S1_Intro[SEMESTER 1 - All Mandatory - 30 ECTS]
+    Start([Master's Program Start]) --> S1_Intro[QUARTER 1 - 30 ECTS]
     
     S1_Intro --> Block1
     
@@ -57,7 +57,7 @@ flowchart TD
         3 ECTS"]:::cyber
     end
     
-    Block3 --> S2_Intro[SEMESTER 2 - Coming Soon!]
+    Block3 --> S2_Intro[QUARTER 2 - Coming Soon!]
 
     %% Styling for course types
     classDef ai fill:#4A90E2,stroke:#2E5C8A,stroke-width:2px,color:#fff
