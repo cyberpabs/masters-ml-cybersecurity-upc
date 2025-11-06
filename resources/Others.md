@@ -16,3 +16,7 @@
 - **Apriori Algorithm**: [https://www.javatpoint.com/apriori-algorithm](https://www.javatpoint.com/apriori-algorithm)
 - **Eclat Algorithm**: [https://www.geeksforgeeks.org/eclat-algorithm/](https://www.geeksforgeeks.org/eclat-algorithm/)
 - **Conditional Probability and Independent Events**: [https://stats.libretexts.org/@go/page/532](https://stats.libretexts.org/@go/page/532)
+# Resources for Neural Networks
+
+- [But what is a neural network? by 3blue1brown](https://youtu.be/aircAruvnKk)
+- [Backpropagation-3Blue1Brown](https://youtu.be/Ilg3gGewQ5U?si=RZNO08icYP-mQrbd)
