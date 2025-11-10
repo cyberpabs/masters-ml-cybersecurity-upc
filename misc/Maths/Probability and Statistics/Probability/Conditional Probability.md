@@ -1,0 +1,1 @@
+Conditional probability is the revised probability that an event A has occurred, taking into account the additional information that another event B has definitely occurred. It is denoted as $P(A|B)$ and can be computed using the formula: $P(A|B) = P(A \cap B) / P(B)$.
