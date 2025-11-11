@@ -5,7 +5,7 @@ Calculus is essential for understanding and implementing optimization in machine
 ## Knowledge Points
 
 - [ ] [[Derivatives and Differentiation]]
-- [ ] [[Chain Rule]]
+- [ ] [[Chain rule]]
 - [ ] [[Gradient Descent]]
 - [ ] [[Partial Derivatives]]
 - [ ] [[Multivariable Calculus]]

@@ -1,6 +1,6 @@
 # Introduction
 
-A **neural network** is a pool of simple processing units called **neurons** which communicate by sending signals to each other over a large number of weighted connections and they are used to solve problems by analyzing vast amounts of data. 
+A **neural network** is a pool of simple processing units called **neurons** which communicate by sending signals to each other over a large number of weighted connections. They are used to solve problems by analyzing vast amounts of data. 
 
 > Inspired by the structure of the **human brain**.
 
@@ -179,3 +179,46 @@ $$
 When you build your neural network, one of the choices you get to make is what [[Activation function]] to use in the hidden layers as well as at the output units of your neural network.
 
 ## How NNs learn
+The primary goal in training a neural network is to find **weights** and **biases** which minimize the **cost function** (or [[Loss function]]). We commonly use the Mean Squared Error ([[MSE]]) as an example of a cost function.
+
+To find these optimal parameters, we use an optimization technique called [[Gradient Descent#Gradient Descent for Neural Networks|Gradient descent for neural networks]].
+![[NN_optimization_valley_1.png]]
+In short, to find the minimum of a function $f(x)$:
+1. Start with an initial (can be random) guess of the parameters
+2. Calculate the gradient (**partial derivatives**) of the **[[Loss function|Cost function]]** with respect to
+each parameter.
+$$
+\frac{\partial f(x)}{\partial x_{j}}
+$$
+3. Update each parameter in the opposite direction of the gradient, by moving it
+a step $\alpha$ in that direction:
+$$
+x_{j} \rightarrow x_{j}-\alpha \frac{\partial f(x)}{\partial x_{j}}
+$$
+4. Repeat steps 2 and 3 **until** the parameters **converge to a minimum value**, or
+the change in the cost function is smaller than a predefined threshold.
+
+\(\*) *⍺ is called the **step size** or **learning rate***.
+
+> In our case, we want to find the minimize the loss function by altering the weights 
+> and we want to calculate the derivative with respect to each weight.
+
+### So what is the loss function for a NN?
+
+By minimizing the [[MSE]], the neural network adjusts its **weights and biases** to make $y_i$​ and $\hat y_i$​ as close as possible.
+
+### Backpropagation
+
+Backpropagation is the algorithm used to compute the gradient with respect
+to weights. **This is where NN's learn**.
+
+Since each layer is a function of the previous one, it uses the [[Chain rule]]:
+$$
+\frac{d}{dx} \big[ f(g(x)) \big]=f’(g(x))g’(x)
+$$
+
+> (\*) *Check the [[Others#Resources for Neural Networks|Resources for neural networks]] for more info*
+
+Convergence of the gradient descent algorithm is **not guaranteed**. The choice of
+$\alpha$ is key:
+![[small_vs_big_learning_rate.png]]
