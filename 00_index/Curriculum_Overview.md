@@ -18,7 +18,7 @@ Each course name links to its corresponding folder in the `curriculum/` director
 - 🧑‍💻 [[Ethical Hacking]]
 - 🦠 [[Malware Analysis]]
 - 🌐 [[Network Security]]
-- 🗄️ [[Non-relational Database]]
+- 🗄️ [[Non-relational Database|Non-relational Databases]]
 - ☁️ [[Cloud Computing & Distributed Systems]]
 - ⚙️ [[SDLC & Continuous Integration]]
 
