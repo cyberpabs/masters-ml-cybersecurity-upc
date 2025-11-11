@@ -1,4 +1,4 @@
-# Recommended Resources for Machine Learning
+# Resources for Machine Learning
 
 - **k-NN tutorial**, Penn State: [https://quantdev.ssri.psu.edu/sites/qdev/files/kNN_tutorial.html](https://quantdev.ssri.psu.edu/sites/qdev/files/kNN_tutorial.html
 - **Ensemble Methods** by Zhi-Hua Zhou: [https://tjzhifei.github.io/links/EMFA.pdf](https://tjzhifei.github.io/links/EMFA.pdf)
@@ -20,3 +20,4 @@
 
 - [But what is a neural network? by 3blue1brown](https://youtu.be/aircAruvnKk)
 - [Backpropagation-3Blue1Brown](https://youtu.be/Ilg3gGewQ5U?si=RZNO08icYP-mQrbd)
+- [The chain rule explained](https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-chain-2009-1.pdf) (No HTTPS version)
