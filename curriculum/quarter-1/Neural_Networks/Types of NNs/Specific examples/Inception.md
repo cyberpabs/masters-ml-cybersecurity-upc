@@ -1,0 +1,1 @@
+Is a family of CNNs for [[Computer vision]], introduced by researchers at Google in 2014 as GoogLeNet (later renamed Inception v1). The series was historically important as an early CNN that separates the stem (data ingest), body (data processing), and head (prediction), an architectural design that persists in all modern CNN.

@@ -4,3 +4,16 @@ Its edges do not connect every node and unlike the MLP, which treats every pixel
 
 ![[CNN_example_1.png]]
 
+### Noteworthy Specific CNN Models
+
+Architectures known for performance and efficiency:
+- [[Inception]] 
+- [[ResNet]]
+
+### Novel Architectures
+
+Two novel architectures are also highlighted:
+
+- **DeepFreqNet**: A new architecture that leverages **frequency-domain features**, making it adaptable to domains like medical imaging and sign language recognition.
+  
+- **Information Set based CNN (ISCNN)**: A CNN variant that introduces modified pooling and connection layers to improve robustness, particularly against noisy data.

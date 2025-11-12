@@ -38,7 +38,7 @@ There are different types of Neural Networks based on their core structure and a
 * [[Recurrent Neural Networks]] (RNN)
     * *Variants:* [[Long Short-Term Memory]] (LSTM), [[Gated Recurrent Unit]] (GRU)
 
-## Wide vs deep networks
+### Wide vs deep networks
 
 - **Width (More Neurons in a Layer):** Adding more neurons to a single layer means the network can learn a greater number of **simple patterns** at the same level of complexity **in parallel** (e.g., detecting 50 different types of edges simultaneously).
 
@@ -222,3 +222,10 @@ $$
 Convergence of the gradient descent algorithm is **not guaranteed**. The choice of
 $\alpha$ is key:
 ![[small_vs_big_learning_rate.png]]
+
+
+
+
+## Types of NN
+
+- [[NN for classification]] 

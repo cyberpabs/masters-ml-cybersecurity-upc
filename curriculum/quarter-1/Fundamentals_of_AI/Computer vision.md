@@ -1,0 +1,1 @@
+Subfield of [[Artificial Intelligence]] (AI) that equips machines with the ability to process, analyze and interpret visual inputs such as images and videos

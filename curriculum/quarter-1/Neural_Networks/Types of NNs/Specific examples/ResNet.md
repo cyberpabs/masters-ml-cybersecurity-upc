@@ -1,0 +1,1 @@
+A type of convolutional neural network (CNN) architecture introduced in 2015 by researchers at Microsoft. Its primary innovation is the use of residual blocks, which include “skip connections” that allow gradients to bypass layers during training.
