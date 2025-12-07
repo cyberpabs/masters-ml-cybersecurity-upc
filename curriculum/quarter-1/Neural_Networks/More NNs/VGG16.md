@@ -1,0 +1,1 @@
+**Visual Geometry Group** most commonly known as **VGG** from the University of Oxford, is one of the best [[Computer vision|computer vision]] models to date trained on [[ImageNet]]. The number 16 refers to the network's **16 layers that have weights** and it has about 138 million parameters.

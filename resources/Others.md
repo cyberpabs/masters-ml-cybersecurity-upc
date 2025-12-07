@@ -21,3 +21,7 @@
 - [But what is a neural network? by 3blue1brown](https://youtu.be/aircAruvnKk)
 - [Backpropagation-3Blue1Brown](https://youtu.be/Ilg3gGewQ5U?si=RZNO08icYP-mQrbd)
 - [The chain rule explained](https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-chain-2009-1.pdf) (No HTTPS version)
+- [A novel deep neural architecture for efficient and scalable multidomain image classification by SM Nuruzzaman Nobel et al.](https://www.nature.com/articles/s41598-025-10517-w)
+- [Information set supported deep learning architectures for improving noisy image classification by Saurabh Bhardwaj et al.](https://www.nature.com/articles/s41598-023-31462-6)
+- [Very Deep Convolutional Networks for Large-Scale Image Recognition by Karen Simonyan, Andrew Zisserman](https://arxiv.org/abs/1409.1556)
+- Sandler, M., Howard, A., Zhu, M., Zhmoginov, A., & Chen, L.-C. (2018). _MobileNetV2: Inverted Residuals and Linear Bottlenecks_. ArXiv.org. https://arxiv.org/abs/1801.04381 

@@ -1,0 +1,2 @@
+A publicly available **large-scale database** with **annotated images**, composed to be used in multiple computer vision tasks. It contains over 14 million images, with each image annotated using [[WordNet]] synonym sets.
+![[ImageNet_example.png]]
