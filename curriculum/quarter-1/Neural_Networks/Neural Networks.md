@@ -150,7 +150,7 @@ $$
 The complete logic with 2 neurons is the following:
 ![[NN_secuence_1.png|200]]
 
-### Non-vectorized approach:
+### Non-vectorized approach
 
 ![[NN_non_vectorized_approach.png|200]]
 Notation:
@@ -159,7 +159,7 @@ a^{[2](i)}
 $$
 This means 2 layer, $i^{th}$ example.
 
-### [[Vectorization]] approach:
+### [[Vectorization]] approach
 First we transform the $x^{(i)}$ to a row vector like this:
 $$
 X = [x^{1}, x^{2}, x^{3}, ..., x^{m}]
@@ -229,3 +229,49 @@ $\alpha$ is key:
 ## Types of NN
 
 - [[NN for classification]] 
+
+## Handling imbalanced datasets
+
+Class imbalance occurs when one label is significantly more common than the other label in a dataset.
+
+> The predominant label in an imbalanced dataset is called **the majority class**; the less common label is called **the minority class**.
+
+**Prevalence** (*minority class proportion*) of less than 5% is a common symptom, though there is no strict definition. Learning models **may not focus on the minority class** examples at all, as the majority class can overwhelm models like logistic regression.
+### **Methods for Handling Imbalance**
+
+Several techniques can be used to rebalance the dataset or adjust the model's focus during training:
+
+1. **Oversampling the Minority Class**
+    - Involves **duplicating examples** from the minority class.
+    - _Drawback:_ Tends to **increase prediction bias**.
+    
+2. **Undersampling (Downsampling) the Majority Class**
+    - Involves training on a disproportionately low subset of the **majority class** examples.
+    - This **reduces the number of datapoints**, which helps with training.
+    
+3. **Downsampling and Upweighting**
+    - **Downsampling:** Extract random examples from the dominant class.
+    - **Upweighting:** Adding an **example weight** to the downsampled class equal to the factor by which it was downsampled.
+    - **Benefit:** Upweighting ensures the model remains **calibrated**, meaning the outputs can still be interpreted as probabilities.
+      
+4. **Specialized Loss Functions (Focal Loss)**
+    - The **Focal Loss ($FL$)** reshapes the standard cross-entropy loss.
+    - **Formula:** $FL(p_{t})=-(1-p_{t})^{\gamma}log(p_{t})$
+    - **Mechanism:** Uses a **modulating factor** $(1-p_{t})^{\gamma}$ to **down-weight easy examples** (well-classified examples with high confidence).
+    - **Goal:** To focus training on **hard negatives/misclassified examples**.
+
+### **Evaluation Metrics for Imbalanced Data**
+
+Standard metrics like **Accuracy** may not be meaningful because blindly predicting the majority class can yield high accuracy (where prevalence is the baseline).
+
+- **F1-Score:** Focuses on both **precision and recall**, making it useful in cases of class imbalance.
+
+- **Precision-Recall (PR) Curve:** We look for both high precision and high recall, acknowledging the common **trade-off** between the two.
+    - The **Area Under the PR Curve (AUPRC)** is considered **more robust** than AUROC for imbalanced data.
+    
+- **Receiver Operating Characteristic (ROC) Curve:** Plots the **true positive rate** versus the **false positive rate** at different classification thresholds.
+    - The **Area Under ROC (AUROC)** is easy to keep high by scoring most negatives very low.
+    
+- **Metric Robustness (General Trend):** Accuracy < AUROC < AUPRC.
+
+![[precision_recall_curve_vs_roc_curve.png]]

@@ -1,0 +1,4 @@
+A subset of **[[Transfer Learning]]**, a broader machine learning strategy. The primary goal of inductive transfer learning is to improve the learning efficiency and performance of a target task by applying knowledge extracted from a related source task. This is achieved by transferring the inductive bias, which is the set of assumptions that the learner uses to predict outputs given inputs, from the source task to the target task.
+![[inductive_transfer_learning.png]]
+### Multitask Learning
+Standard methods in Machine Learning learns one task at a time. However, a large problem can be broken down to smaller problems using [[Multitask Learning]]. 

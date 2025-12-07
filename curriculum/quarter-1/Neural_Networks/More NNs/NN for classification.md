@@ -1,7 +1,7 @@
 Supervised learning tasks where the goal is to assign input data into predefined categories or classes. This data can be images, text, audio, or **structured data**.
 
-- Image classification
-- Sentiment Analysis
+- [[Image classification]]
+- [[Sentiment Analysis]]
 
 > We need to find a **decision boundary** that separated the data into distinct categories, specially when the data is **non-linear** and **complex**.
 
@@ -22,12 +22,11 @@ Examples of NN classification tasks in the real world:
 Binary classification is a choice **between two labels**. The output layer typically consists of a single neuron that outputs a value between **0 and 1**, representing the **probability** of the input belonging to one of the two classes.
 
 ### Multi-class classification
-Is a choice between **three or more categories**. Generally, the **output layer** contains **one neuron per class**. Ideally, the sum of the values of the output neurons **sums to 1**, to be
-interpreted as probabilities.
 
+An instance belongs to **exactly one** class out of three or more possible categories. Generally, the **output layer** contains **one neuron per class**. Ideally, the sum of the values of the output neurons **sums to 1**, to be interpreted as probabilities.
 #### Types of multi-class classification
-In multi-class classification, the way the model handles the prediction for multiple categories is critical. The two main approaches for structuring the output layer are **One-vs-All** and **One-vs-One**.
 
+In multi-class classification, the way the model handles the prediction for multiple categories is critical. The two main approaches for structuring the output layer are **One-vs-All** and **One-vs-One**.
 ##### One-vs-All (OvA)
 Is a method that breaks down a classification problem with $N$ possible solutions into **$N$ separate binary classifiers**.
 
@@ -51,15 +50,30 @@ When implemented with the standard multi-class approach in neural networks, pred
 - **Prediction:** The Softmax function is essential because it **normalizes** the output values, so the sum of the values of the output neurons **sums to 1**, allowing the outputs to be correctly interpreted as probabilities for all classes.
   
 - **Assumption:** The Softmax approach **assumes that each example is a member of exactly one class**.
-  
-- **Multilabel Tasks:** For tasks where an input can simultaneously be a member of **multiple classes** (multi-label classification), you **cannot use softmax** and must instead rely on a **one-vs-all approach**.
+
+### Multi-label Classification
+
+For tasks where an input can simultaneously be a member of **zero, one, or multiple** classes simultaneously. You **cannot use softmax** and must instead rely on a **one-vs-all approach**.
 
 Think of the "Label" terms as defining the **problem** you are solving, and the "vs." terms as defining the **technique** the neural network uses to solve it.
+
+### Hierarchical Classification
+_(Not in lesson)_
+
+It involves classifying images at **multiple levels of hierarchy**. For example, an image of an animal can first be classified as a "mammal" and then further classified as "cat" or "dog".
+
+### **_Summary_**
 
 | **Problem Type (Label)**     | **Classification Technique (vs.)** | **Output Activation** |
 | ---------------------------- | ---------------------------------- | --------------------- |
 | **One-Label** (Multi-class)  | **One-vs-One** (Implicitly)        | **Softmax**           |
 | **Many-Label** (Multi-Label) | **One-vs-All** (Explicitly)        | **Sigmoid**           |
+
+--- 
+## Advanced Training Strategies 
+### Transfer Learning 
+
+**[[Transfer Learning]]** is a powerful training methodology where a model developed for a massive task is **reused** as the starting point for a related, often smaller, task. 
 
 ## Architectures for classification
 
@@ -81,3 +95,43 @@ These often build upon the core concepts above:
 - **[[Vision Transformers]] (ViTs)**: These adapt the Transformer model to image tasks, offering a strong, more recent alternative to traditional CNNs.
 
 - **Hybrid Architectures**: These combine elements of both CNNs and Transformers to leverage the strengths of each model type.
+
+
+
+
+## Benchmarks
+
+A benchmark is a **standard or point of reference** against which various things may be compared. 
+
+> When developing a new method or dataset, benchmarks are used to compare it to existing solutions to determine if the new approach is "better".
+
+### Types of benchmarks
+
+| Benchmark Type                 | Evaluation Focus                                                           |
+| ------------------------------ | -------------------------------------------------------------------------- |
+| **Model/Algorithm Benchmarks** | Performance of state-of-the-art algorithms on specific datasets and tasks. |
+| **Hardware Benchmarks**        | The performance of CPUs, GPUs, TPUs, and other accelerators in AI tasks.   |
+| **Dataset Benchmarks**         | Standardized datasets against which comparisons are made.                  |
+
+Several widely recognized datasets used as benchmarks:
+- [[ImageNet]]
+- MNIST
+- SQuAD
+
+## Activation functions for classification
+
+In classification, the output of a NN is numerical, and classification is achieved by interpreting these outputs as a **class distribution or probabilities for each class**. The choice of activation function in the output layer depends entirely on the nature of the classification task.
+![[relu_vs_tanh.png]]
+(\*) https://ml-course.github.io/master/08%20-%20Neural%20Networks.slides.html#/19
+
+#### Common functions
+
+- [[Sigmoid function]]: Used for **binary classification**, which is a choice between two labels. The output layer typically consists of a single neuron that outputs a value between 0 and 1, representing the probability of the input belonging to one of the two classes. Used in conjunction with [[Binary Cross-Entropy (Log loss)]].
+
+- [[Softmax activation function]]: Used for **multiclass classification**, which is a choice between three or more categories. The output layer generally contains one neuron per class. Softmax ensures that the sum of the values of the output neurons sums to 1, so they can be interpreted as probabilities. It assumes that each example is a member of exactly one class. Softmax calculates the exponential of the input for each class ($z_i$) and divides it by the sum of the exponentials of all the raw class scores in the output layer. Used in conjunction with **[[Categorical Cross-Entropy]]** (also called Softmax Loss).
+
+## Loss functions
+
+- [[Binary Cross-Entropy (Log loss)]]: To get a **measure of dissimilarity** between the target and the predicted label. It penalizes incorrect predictions, with larger penalties for predictions that are farther away from the true label (due to the log)
+  
+- [[Categorical Cross-Entropy]]: Compares the predicted probability distribution over all classes with the one-hot encoded true labels.

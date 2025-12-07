@@ -16,4 +16,4 @@ Two novel architectures are also highlighted:
 
 - **DeepFreqNet**: A new architecture that leverages **frequency-domain features**, making it adaptable to domains like medical imaging and sign language recognition.
   
-- **Information Set based CNN (ISCNN)**: A CNN variant that introduces modified pooling and connection layers to improve robustness, particularly against noisy data.
+- **Information Set based CNN (ISCNN)**: A CNN variant that introduces modified [[Pooling|pooling]] and connection layers to improve robustness, particularly against noisy data.
